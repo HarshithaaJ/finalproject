@@ -11,7 +11,7 @@ const Dashboard = () => {
     useEffect(() => {
         const fetchDashboardData = async () => {
             try {
-                const response = await axios.get('http://localhost:3000/api/v1/quiz/dashboard');
+                const response = await axios.get('http://localhost:7000/api/v1/quiz/dashboard');
                 const data = response.data;
                 setTotalQuizzes(data.totalQuizzes);
                 setTotalQuestions(data.totalQuestions);

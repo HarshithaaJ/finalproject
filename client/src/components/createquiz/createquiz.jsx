@@ -84,8 +84,8 @@ const CreateQuiz = () => {
     const quiz = { quizName, quizType, questions, timer };
     try {
       const response = await axios.post('/api/quizzes', quiz);
-      //  alert(Congrats! Your (quiz) is published. 
-      //   Link: $where{response.data.link});
+        // alert(Congrats! Your (quiz) is published. 
+        //  Link: $where{response.data.link});
     } catch (error) {
       console.error('Error creating quiz:', error);
       alert('Error creating quiz');

@@ -1,0 +1,9 @@
+.viewpage{
+    background-color: black;
+}
+.sidebar{
+    justify-content: center;
+}
+.main-content{
+    display: flex;
+}
